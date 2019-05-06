@@ -1,5 +1,5 @@
-# CapstoneDesign
-* Capstone Design Project, Subject is "AutoCar" at KNU's EE
+# Capstone Design Project
+* Subject is "AutoCar" at KNU's EE
 * Using Ultrasonic sensor and LiDAR
 
 ## Date
