@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
       time_sleep(0.5);
 	  tmp--;
    }
-   // 후진 경적 소리 : 1465
+   // 후진 경적 소리 : 1465, 후진 시작 : 1460
    for(int i=0; i<100; i++){
       if( !gpioPWM(ESC, tmp) ) { // 1437.5/25000 = 5.75% 
 	  	printf("tmp = %d \n", tmp);
