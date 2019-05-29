@@ -344,7 +344,7 @@ int main(int argc, const char * argv[]) {
 		//printf("Difference of distance (Left - Right): %08.2f \n", cur_dist45-cur_dist315);
 		if( fabs(diff) >= limit_diff ) {   // 100mm = 10cm
             // setpoint = 1540
-			setpoint += (int)(diff*Kp);   // 여기서 0.01이 알고리즘에서 B값인듯
+			setpoint += (int)(diff*Kp1);   // 여기서 0.01이 알고리즘에서 B값인듯
 			//val = (int)(setpoint - diff*0.05);
 			//printf("%08.1f \n", diff);
 
