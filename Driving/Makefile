@@ -2,7 +2,7 @@
 CC = gcc
 CCFLAGS = -D_REENTRANT
 LFLAGS = -lpigpio -lrt -pthread -lpthread
-OBJS = main.o
+OBJS = driving.o
 TARGET = $(OBJS:.o=)
 
 $(TARGET): $(OBJS)
